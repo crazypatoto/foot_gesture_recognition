@@ -33,3 +33,4 @@ C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\x64
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\x64\Debug\FootDetection.exe
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\x64\Debug\FootDetection.pdb
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\x64\Debug\FootDetection.Form1.resources
+C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\x64\Debug\FootDetection.Live.resources
