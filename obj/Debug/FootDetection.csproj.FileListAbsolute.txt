@@ -39,3 +39,4 @@ C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\Deb
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\Debug\FootDetection.csproj.CopyComplete
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\Debug\FootDetection.exe
 C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\Debug\FootDetection.pdb
+C:\Users\crazy\Documents\Lab\日本行\Codes\UI\FootDetect\FootDetection\obj\Debug\FootDetection.Direction.resources

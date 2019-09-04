@@ -81,9 +81,15 @@
             this.trackBar_S_Low_3 = new System.Windows.Forms.TrackBar();
             this.trackBar_H_Low_3 = new System.Windows.Forms.TrackBar();
             this.timer_Process = new System.Windows.Forms.Timer(this.components);
-            this.label_Count_1 = new System.Windows.Forms.Label();
-            this.label_Count_2 = new System.Windows.Forms.Label();
-            this.label_Count_3 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label_Area_1 = new System.Windows.Forms.Label();
+            this.label_Area_2 = new System.Windows.Forms.Label();
+            this.label_Area_3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label_Center_1 = new System.Windows.Forms.Label();
+            this.label_Center_2 = new System.Windows.Forms.Label();
+            this.label_Center_3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox_HSV_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_H_Low_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_S_Low_1)).BeginInit();
@@ -588,44 +594,116 @@
             // 
             this.timer_Process.Tick += new System.EventHandler(this.Timer_Process_Tick);
             // 
-            // label_Count_1
+            // label3
             // 
-            this.label_Count_1.AutoSize = true;
-            this.label_Count_1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label_Count_1.Location = new System.Drawing.Point(1094, 36);
-            this.label_Count_1.Name = "label_Count_1";
-            this.label_Count_1.Size = new System.Drawing.Size(149, 25);
-            this.label_Count_1.TabIndex = 55;
-            this.label_Count_1.Text = "label_Count_1";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(12, 254);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 31);
+            this.label3.TabIndex = 57;
+            this.label3.Text = "Middle";
             // 
-            // label_Count_2
+            // label_Area_1
             // 
-            this.label_Count_2.AutoSize = true;
-            this.label_Count_2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label_Count_2.Location = new System.Drawing.Point(1094, 278);
-            this.label_Count_2.Name = "label_Count_2";
-            this.label_Count_2.Size = new System.Drawing.Size(149, 25);
-            this.label_Count_2.TabIndex = 56;
-            this.label_Count_2.Text = "label_Count_2";
+            this.label_Area_1.AutoSize = true;
+            this.label_Area_1.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Area_1.Location = new System.Drawing.Point(952, 19);
+            this.label_Area_1.Name = "label_Area_1";
+            this.label_Area_1.Size = new System.Drawing.Size(67, 22);
+            this.label_Area_1.TabIndex = 58;
+            this.label_Area_1.Text = "Area_1";
+            this.label_Area_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label_Count_3
+            // label_Area_2
             // 
-            this.label_Count_3.AutoSize = true;
-            this.label_Count_3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label_Count_3.Location = new System.Drawing.Point(1094, 518);
-            this.label_Count_3.Name = "label_Count_3";
-            this.label_Count_3.Size = new System.Drawing.Size(149, 25);
-            this.label_Count_3.TabIndex = 57;
-            this.label_Count_3.Text = "label_Count_3";
+            this.label_Area_2.AutoSize = true;
+            this.label_Area_2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Area_2.Location = new System.Drawing.Point(952, 260);
+            this.label_Area_2.Name = "label_Area_2";
+            this.label_Area_2.Size = new System.Drawing.Size(67, 22);
+            this.label_Area_2.TabIndex = 59;
+            this.label_Area_2.Text = "Area_2";
+            this.label_Area_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_Area_3
+            // 
+            this.label_Area_3.AutoSize = true;
+            this.label_Area_3.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Area_3.Location = new System.Drawing.Point(952, 501);
+            this.label_Area_3.Name = "label_Area_3";
+            this.label_Area_3.Size = new System.Drawing.Size(67, 22);
+            this.label_Area_3.TabIndex = 60;
+            this.label_Area_3.Text = "Area_3";
+            this.label_Area_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(12, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 31);
+            this.label4.TabIndex = 61;
+            this.label4.Text = "Side1";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(31, 495);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 31);
+            this.label5.TabIndex = 62;
+            this.label5.Text = "Side2";
+            // 
+            // label_Center_1
+            // 
+            this.label_Center_1.AutoSize = true;
+            this.label_Center_1.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Center_1.Location = new System.Drawing.Point(952, 212);
+            this.label_Center_1.Name = "label_Center_1";
+            this.label_Center_1.Size = new System.Drawing.Size(84, 22);
+            this.label_Center_1.TabIndex = 63;
+            this.label_Center_1.Text = "Center_1";
+            this.label_Center_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_Center_2
+            // 
+            this.label_Center_2.AutoSize = true;
+            this.label_Center_2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Center_2.Location = new System.Drawing.Point(952, 454);
+            this.label_Center_2.Name = "label_Center_2";
+            this.label_Center_2.Size = new System.Drawing.Size(84, 22);
+            this.label_Center_2.TabIndex = 64;
+            this.label_Center_2.Text = "Center_2";
+            this.label_Center_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_Center_3
+            // 
+            this.label_Center_3.AutoSize = true;
+            this.label_Center_3.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_Center_3.Location = new System.Drawing.Point(952, 694);
+            this.label_Center_3.Name = "label_Center_3";
+            this.label_Center_3.Size = new System.Drawing.Size(84, 22);
+            this.label_Center_3.TabIndex = 65;
+            this.label_Center_3.Text = "Center_3";
+            this.label_Center_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1270, 734);
-            this.Controls.Add(this.label_Count_3);
-            this.Controls.Add(this.label_Count_2);
-            this.Controls.Add(this.label_Count_1);
+            this.Controls.Add(this.label_Center_3);
+            this.Controls.Add(this.label_Center_2);
+            this.Controls.Add(this.label_Center_1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label_Area_3);
+            this.Controls.Add(this.label_Area_2);
+            this.Controls.Add(this.label_Area_1);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.checkBox_Filter_3);
             this.Controls.Add(this.imageBox_HSV_3);
             this.Controls.Add(this.imageBox_Result_3);
@@ -680,7 +758,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "FootDetection";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imageBox_HSV_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar_H_Low_1)).EndInit();
@@ -764,9 +842,15 @@
         private System.Windows.Forms.TrackBar trackBar_S_Low_3;
         private System.Windows.Forms.TrackBar trackBar_H_Low_3;
         private System.Windows.Forms.Timer timer_Process;
-        private System.Windows.Forms.Label label_Count_1;
-        private System.Windows.Forms.Label label_Count_2;
-        private System.Windows.Forms.Label label_Count_3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_Area_1;
+        private System.Windows.Forms.Label label_Area_2;
+        private System.Windows.Forms.Label label_Area_3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label_Center_1;
+        private System.Windows.Forms.Label label_Center_2;
+        private System.Windows.Forms.Label label_Center_3;
     }
 }
 

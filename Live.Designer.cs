@@ -63,6 +63,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Live";
             this.Text = "Live Image";
+            this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Live_FormClosing);
             this.Load += new System.EventHandler(this.Live_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imageBox_Before)).EndInit();
